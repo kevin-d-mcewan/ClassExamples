@@ -20,4 +20,17 @@ account1.deposit(Decimal('25.53'))
 print(account1.balance)
 
 
+account1.balance = Decimal('-1000.00')
+print(account1.balance)
+print(Account.deposit.__doc__)
+
+# INITIALIZING ACCOUNT OBJECTS: METHOD __init__
+'''Creates a new object, then initializes its data by calling
+the __init__ method.'''
+account2 = Account('Jeff Gold', Decimal('200.00'))
+
+
+
+
+
 
